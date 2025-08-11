@@ -11,6 +11,6 @@ public class HomeController {
 	@ResponseBody
 	public String main() {
 		System.out.println("main handler 실행됨.");
-		return "hello springBoot";
+		return "젠킨스에 올렸다~~~~~";
 	}
 }
